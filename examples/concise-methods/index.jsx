@@ -7,7 +7,7 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <p>In object literals and classes we can condense <Code>render: function () {"{}"}</Code> to <Code>render() {}</Code></p>
+        <p>In object literals and classes we can condense <Code>render: function () {"{}"}</Code> to <Code>render() {"{}"}</Code></p>
         <Playground codeText={a} es6Console={true} scope={{}} />
       </div>
     );
